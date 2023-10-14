@@ -3,5 +3,5 @@ Projetos Alura
 
 ## Projetos em andamento
 - [ ] AluraMidi
-- [ ] Pong
-      - Em andamento
+- [X] Pong
+- [ ] Freeway
