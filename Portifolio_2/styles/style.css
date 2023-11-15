@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 6vh;
+    background-color: #27272767;
+    border-radius: 12px;
+    justify-content: center;
+    box-shadow: black 0px 0px 10px;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(5px);
+}
+
+.header_items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header_item {
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-shadow: black 0px 0px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.selected {
+    border-bottom: rgb(255, 255, 255) 3px solid
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.titulo-destaque {
+    color: #22D4FD;
+}
+.conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+.link:hover{
+    background-color: #272727;
+    font-size: 26px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    top: 100%;
+    color: #8f8f8f;
+    border-top: rgb(48, 48, 48) 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.imagem {
+    width: 400px;
+}
